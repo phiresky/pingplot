@@ -4,7 +4,11 @@ plot a ping log to pdf, svg or png. Can be used for monitoring network performan
 
 ## sample output
 
+Small time frame:
+
 ![small sample](pingplot-sample1.png)
+
+Larger time frame:
 
 ![larger sample](pingplot-sample2.png)
 
