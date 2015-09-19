@@ -16,7 +16,7 @@ Larger time frame:
 
 1. add this line to `crontab -e`
 
-    `while true; do ping google.com -D -i 60; sleep 5; done >> ~/pinglog`
+    `@reboot while true; do ping google.com -D -i 60; sleep 5; done >> ~/pinglog`
 
 	where `60` is your ping delay in seconds and `google.com` is the target server
 2. link your pinglog into this directory
