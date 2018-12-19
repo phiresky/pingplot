@@ -19,8 +19,9 @@ Larger time frame:
     `@reboot while true; do ping google.com -D -i 60; sleep 5; done >> ~/pinglog`
 
 	where `60` is your ping delay in seconds and `google.com` is the target server
-2. link your pinglog into this directory
-3. either run `./pingplot.sh png` or call `pingplot.php?fmt=png`
+2. install R dependencies: `install.packages(c("scales","ggplot2"))`
+3. link your pinglog into this directory
+4. either run `./pingplot.sh png` or call `pingplot.php?fmt=png`
 
 
 
